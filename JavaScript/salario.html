@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salario</title>
+</head>
+<body>
+    <h1>informe o seu salario</h1>
+    <input type="number" id="valor" name="valor"> 
+    <input type="button" value="Calcular" onclick="define_salario()">
+    <div id="res"> </div>
+    <script>
+        function define_salario() {
+            var salario_reajustado = ''
+            var res = document.getElementById('res')
+            var salario = document.querySelector('input#valor').value;
+            if (salario <= 300) {
+                var salario_reajustado = salario + (salario ** 0.15)
+            }else{
+                var salario_reajustado = salario + (salario ** 0.075)
+            }   
+            res.innerHTML = (`Seu novo salário é de ${salario_reajustado}`)
+    }
+    </script>
+</body>
+</html>

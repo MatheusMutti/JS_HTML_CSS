@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento Input String</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Declare a sua nacionalidade <input type="text" id="pais">
+    <input type="button" value="Ok" onclick="nac()">
+    <div id="res"> 
+    </div>
+    <script>
+        function nac() {
+            var p = window.document.getElementById('pais')
+            var p1 = (p.value)
+            res.innerHTML = `Obrigado! A sua nacionalidade é ${p1}`
+        }
+    </script>
+    
+</body>
+</html>

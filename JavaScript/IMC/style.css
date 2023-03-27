@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+body {
+    background-image: linear-gradient(to left, #818181, #292b2a);
+    
+}
+main {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+     
+        
+}
+
+h1 {
+    
+    color: #4059AD; 
+    text-align: center;
+    text-shadow: 1px 1px 2px #4059AD
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    
+       
+
+}
+#resultado {
+    padding: 15px;
+    text-align: center;
+    
+}
+.alt{
+    float: right;
+    
+}
+.dica {
+    border-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(104, 179, 189, 0.856);
+    
+}
+.dica2 {
+    border-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(13, 109, 13, 0.856);
+    
+}
+.dica3 {
+    border-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(148, 13, 13, 0.856);
+    
+}
